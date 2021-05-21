@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2554207 */
-  src: url('//at.alicdn.com/t/font_2554207_flhdrcjvy8r.woff2?t=1621275121455') format('woff2'),
-       url('//at.alicdn.com/t/font_2554207_flhdrcjvy8r.woff?t=1621275121455') format('woff'),
-       url('//at.alicdn.com/t/font_2554207_flhdrcjvy8r.ttf?t=1621275121455') format('truetype');
+  src: url('//at.alicdn.com/t/font_2554207_4tebd73wgks.woff2?t=1621362382932') format('woff2'),
+       url('//at.alicdn.com/t/font_2554207_4tebd73wgks.woff?t=1621362382932') format('woff'),
+       url('//at.alicdn.com/t/font_2554207_4tebd73wgks.ttf?t=1621362382932') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,30 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chart-bar:before {
+  content: "\e667";
+}
+
+.icon-file:before {
+  content: "\e671";
+}
+
+.icon-modular:before {
+  content: "\e678";
+}
+
+.icon-comment-filling:before {
+  content: "\e689";
+}
+
+.icon-work-filling:before {
+  content: "\e68d";
+}
+
+.icon-home-filling:before {
+  content: "\e68e";
 }
 
 .icon-lock:before {
