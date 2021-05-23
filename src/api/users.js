@@ -61,3 +61,19 @@ export function removeUser (id) {
     return Promise.resolve(res.data)
   })
 }
+
+export function getRoleList () {
+  const url = 'http://timemeetyou.com:8889/api/private/v1/roles'
+
+  return axios.get(url).then(res => {
+    return Promise.resolve(res.data)
+  })
+}
+
+export function changeRoleId (id, rid) {
+  const url = `http://timemeetyou.com:8889/api/private/v1/users/${id}/role`
+
+  return axios.put(url, { rid }).then(res => {
+    return Promise.resolve(res.data)
+  })
+}

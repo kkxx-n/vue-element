@@ -12,6 +12,9 @@
         <!-- 侧边栏 -->
         <el-aside :width="isCollapse ? '64px' : '200px'">
           <div class="toggle-button" @click="toggleCollapse">|||</div>
+          <!--
+            router 激活代表以index为导航进行跳转
+           -->
           <el-menu
             background-color="#545c64"
             text-color="#fff"
